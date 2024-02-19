@@ -1,0 +1,24 @@
+/**
+Zoom everything on the page
+*/
+html {
+  zoom: 100%;
+}
+
+
+.chakra-modal__content-container{
+  width: 100%!important;
+  height: 100%!important;
+}
+
+.uploadcare--powered-by, .uploadcare--powered-by__link {
+  display: none;
+}
+/**
+Dont zoom on mobile
+*/
+@media (max-width: 600px) {
+  html {
+    zoom: 100%;
+  }
+}

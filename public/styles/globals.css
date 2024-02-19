@@ -1,0 +1,6 @@
+/**
+Zoom everything on the page
+*/
+html {
+  zoom: 150%;
+}

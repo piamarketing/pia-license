@@ -1,0 +1,22 @@
+diff --git a/node_modules/@inovua/reactdatagrid-enterprise/plugins/license/LicenseNotice.js b/node_modules/@inovua/reactdatagrid-enterprise/plugins/license/LicenseNotice.js
+index 018a589..1512e52 100644
+--- a/node_modules/@inovua/reactdatagrid-enterprise/plugins/license/LicenseNotice.js
++++ b/node_modules/@inovua/reactdatagrid-enterprise/plugins/license/LicenseNotice.js
+@@ -43,7 +43,7 @@ var _default = function _default() {
+       left: 0,
+       zIndex: 100000,
+       width: '100%',
+-      display: 'flex',
++      display: 'none',
+       alignItems: 'center',
+       justifyContent: 'center'
+     }
+@@ -52,7 +52,7 @@ var _default = function _default() {
+       flex: 1,
+       textAlign: 'center'
+     }
+-  }, "UNLICENSED COPY - FOR EVALUATION USE ONLY"), _react.default.createElement("svg", {
++  }, ""), _react.default.createElement("svg", {
+     width: 10,
+     height: 10,
+     viewBox: "0 0 10 10",

@@ -1,0 +1,12 @@
+{
+  "crons": [
+    {
+      "path": "/api/tibcheck",
+      "schedule": "*/1 * * * *"
+    },
+    {
+      "path": "/api/create-invoices",
+      "schedule": "0 * * * *"
+    }
+  ]
+}
