@@ -28,7 +28,7 @@ const API = axios.create({
 	baseURL:
 		process.env.NODE_ENV === 'development'
 			? 'http://localhost:9999/api'
-			: 'https://licenses.piaport.com/api',
+			: 'https://licen.piaport.com/api',
 });
 
 export default API;

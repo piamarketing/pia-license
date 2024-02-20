@@ -1,6 +1,6 @@
 import mysql from 'mysql';
 
-const MYSQL_SERVER = '185.61.154.21';
+const MYSQL_SERVER = '185.61.154.30';
 const MYSQL_PORT = 3306;
 
 const USER = 'pagcorlicenses_db';
